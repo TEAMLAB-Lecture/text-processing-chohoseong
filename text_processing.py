@@ -61,6 +61,6 @@ def no_vowels(input_string):
             ''W lv Pythn!'
     """
 
-    no_vowel_string = input_string.replace('a','').replace('e','').replace('i','').replace('o','').replace('u','')
+    no_vowel_string = input_string.replace('a','').replace('A','').replace('e','').replace('E','').replace('i','').replace('I','').replace('o','').replace('O','').replace('u','').replace('U','')
     
     return no_vowel_string
